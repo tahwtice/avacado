@@ -10,7 +10,7 @@
 
 
 ## Link
-I want to [Google](https://www.baidu.com)
+I want to [Google](https://www.google.com)
 
 
 
