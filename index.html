@@ -1,0 +1,25 @@
+<html>
+
+<script>
+	function press() {
+		let answer = confirm("Do you enjoy this page?")
+		let count = 0
+		while (answer !== true && count < 5) {
+			answer = confirm("Are you sure? Answer it again!")
+			count++
+		}
+		window.alert("We love you too!")
+	}
+</script>
+
+<head>
+	<strong>Hello World!!!<strong>
+</head>
+
+<body>
+	<br><br>This is amber and jun<br><br>
+
+	<button onclick="press()">Rating</button>
+</body>
+
+</html>
